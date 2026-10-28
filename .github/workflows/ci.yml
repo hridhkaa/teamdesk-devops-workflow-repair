@@ -22,5 +22,7 @@ cache: npm
 
       - name: Check team settings
         run: npm run check:settings
+
       - name: Run unit tests
-        run: npm run test:ci
+        run: npm test
+
